@@ -1,0 +1,67 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Style for individual blog post */
+  .blog-post {
+    width: 300px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .blog-post h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .blog-post p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Apply styles for the hero section */
+  .hero {
+    position: relative;
+  }
+  
+  .headerTitles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Lora", serif;
+    color: #444;
+    z-index: 1;
+  }
+  
+  .headerTitleSm {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+  }
+  
+  .headerTitleLg {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+  }
+  
+  .headerImg {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    margin-top: 80px;
+  }

@@ -1,0 +1,85 @@
+/* Header.css */
+/* No need for separate .header class if you're applying styles directly to .navbar */
+
+.logo {
+  width: 120px; 
+  height: auto; 
+}
+
+/* Header.css */
+/* ... */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  /* Other styles */
+  margin: 0;
+}
+
+/* .nav-link {
+  /* Other styles 
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link.active {
+  color: blue; /* Change the color for active link when clicked 
+}
+
+.nav-link.active::after {
+  color: red;
+  content: '';
+  position: absolute;
+  bottom: -3px; /* Adjust as needed to position the line 
+  left: 0;
+  width: 100%;
+  border-bottom: 3px solid navy; /* Customize the line style 
+} */
+
+.nav-link {
+  /* Other styles */
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link em {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link.active {
+  
+  color: white !important; /* Change the color for active link text when clicked */
+}
+
+.nav-link.mama {
+  
+  color: blue; /* Change the color for active link text when clicked */
+}
+/* Adjust the ::after pseudo-element if needed for underlines or additional styles */
+.nav-link.active::after {
+  color: yellow;
+  border-bottom-color: red; /* Line color for active link (you can adjust this as needed) */
+}

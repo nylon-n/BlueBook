@@ -1,0 +1,226 @@
+.home {
+  padding: 20px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(255, 234, 187);
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Style for individual blog post */
+.blog-post {
+  width: 300px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.blog-post h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.blog-post p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Apply styles for the hero section */
+.hero {
+  position: relative;
+}
+
+.headerTitles {
+  position: absolute;
+  margin: auto;
+  font-family: "Lora", serif;
+  color: #ffffff;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 90%);
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.headerImg {
+  width: 102%;
+  height: 480px;
+  object-fit: cover;
+}
+
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-items: center;
+  align-items: top;
+  margin: 0;
+  border-spacing: 10px;
+  padding: 10px;
+}
+
+.centeredDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.quotationContainer {
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.roundedImage {
+  height: 75px;
+  border-radius: 1000px;
+  overflow: hidden;
+}
+
+.quotation {
+  font-weight: bold;
+  font-size: 64px;
+  margin-top: -20px;
+  margin-bottom: -30px;
+  padding: 0px;
+  font-family: "Roboto", serif;
+  color: #284D18;
+}
+
+.reviewText {
+  text-align: justify;
+  word-wrap: break-word;
+  width: 300px;
+}
+
+.reviewerName {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.booksColumn {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border-spacing: 10px;
+}
+
+.bookDesc {
+  margin: 0 auto;
+  /* Center the content within the maximum width */
+  text-align: left;
+  /* Align text to the left */
+  font-size: 15px;
+}
+
+.bookBtn {
+  background-color: #0d214d;
+
+  border: none;
+  border-radius: .9rem;
+  color: #fff;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.bookBtn:hover {
+  background-color: #07112b;
+
+  border: none;
+  border-radius: .9rem;
+  color: #fff;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.bookCategory {
+  border: none;
+  padding: .15rem .5rem;
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  border-radius: .2rem;
+  background-color: #6695F8;
+  color: white;
+}
+
+.bookCategory:hover {
+  border: none;
+  padding: .15rem .5rem;
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  border-radius: .2rem;
+  background-color: #5381e4;
+  color: white;
+}
+
+.quote-container {
+  background-color: #ffffff;
+  padding: 0 400px;
+  text-align: center;
+  border: none;
+}
+
+.justifiedParagraph {
+  /* Center the content within the maximum width */
+  text-align: justify;
+  /* Align text to the left */
+  font-size: 15px;
+
+  max-width: 100%;
+}
+
+.horizontalLine {
+  border: 2px solid #F76C2F;
+  margin-bottom: 25px;
+  margin-left: 0;
+  margin-top: 20px;
+  width: 90px;
+}
+
+.bookImg:hover{
+  filter: brightness(70%);
+  cursor: pointer;
+}

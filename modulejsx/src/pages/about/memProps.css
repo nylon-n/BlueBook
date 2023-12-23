@@ -1,0 +1,13 @@
+.socialMedia {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-spacing: 10px;
+}
+
+td {
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.footer-section{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+hr{
+  width: 200px;
+  max-height: 10px;
+}
+
+.link-container {
+  margin-top: 10px;
+}
+
+.link-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.link-container a:hover {
+  text-decoration: none;
+}

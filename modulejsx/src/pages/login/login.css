@@ -1,0 +1,111 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* .big-container {
+  width: 100%; /* Adjusted to make it more responsive 
+  max-width: 700px; /* Added max-width to limit container width 
+  height: 100%;
+  background-color: #e7f3ff;
+  display: flex;
+  overflow: hidden; /* Added overflow to prevent box-shadow overflow 
+} */
+
+.logoContainer {
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: auto; 
+    height: auto; 
+  }
+  
+
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e7f3ff; 
+    font-family: 'Roboto', sans-serif; 
+    color: #333; 
+  }
+  
+  .loginForm {
+    width: 40%;
+    height: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .loginWelcome {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .loginTitle {
+    font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    /*text-align: center;*/
+  }
+  
+  .loginForm > label {
+    margin-bottom: 10px;
+  }
+  
+  .loginInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .loginInput:focus {
+    outline: none;
+    border-color: #8fb9ff; 
+  }
+  
+  .loginButton {
+    width: 20%;
+    align-items: left;
+    cursor: pointer;
+    background-color: #1877f2; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    transition: background-color 0.3s ease; 
+}
+
+  .loginButton:hover {
+    background-color: #0e5a8a; 
+  }
+  
+  .welcomeImage {
+    display: flex;
+    object-fit: fill; 
+    align-items: right;
+    justify-content: right;
+    
+  }
+  
+  .welcomeImg {
+    width: 700px;
+    height: 742px;
+   
+  }
+
+
+  
